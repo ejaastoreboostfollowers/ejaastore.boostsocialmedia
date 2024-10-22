@@ -1,0 +1,184 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3f4f6;
+    scroll-behavior: smooth; /* Tambahan untuk smooth scroll di seluruh halaman */
+}
+
+header {
+    background-color: #26355D;
+    color: #FFF4EA;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 100px;
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+.nav-links li a {
+    color: #FFF4EA;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.home-content {
+    margin-top: 100px;
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('shopping-bg.jpg') no-repeat center center/cover;
+    color: white;
+    height: 100vh;
+}
+
+.cta-btn {
+    background-color: #FF6464;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #FF3232;
+}
+
+.products-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #F5F5F5;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.product-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.product-card img {
+    width: 60px;
+}
+    
+
+.product-card:hover {
+    transform: translateY(-10px);
+}
+
+.buy-btn {
+    display: block;
+    margin: 20px auto 0;
+    background-color: #FF6464;
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.buy-btn:hover {
+    background-color: #FF3232;
+}
+
+/* About Section */
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #f3f4f6;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 50px;
+    background-color: #26355D;
+    color: #FFF4EA;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-section input, .contact-section textarea {
+    width: 60%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.contact-section button {
+    background-color: #FF6464;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #26355D;
+    color: #FFF4EA;
+}
+
+.cta-btk {
+    background-color: #26355D ;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 13px;
+    transition: 0.3s ease;
+}
+
+h2 {
+    background-color: #26355D ;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 13px;
+    transition: 0.3s ease;
+}
+
+.contact-bti {
+    background-color: darkgreen;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+}
+
+.contact-bti:hover {
+    background-color: darkgreen;
+}
